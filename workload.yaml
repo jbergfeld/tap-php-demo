@@ -1,0 +1,13 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: php-website
+  labels:
+    apps.tanzu.vmware.com/workload-type: web
+    app.kubernetes.io/part-of: php-website
+spec:
+  source:
+    git:
+      ref:
+        branch: master
+      url: https://github.com/jbergfeld/tap-php-demo.git
