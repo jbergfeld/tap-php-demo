@@ -9,5 +9,5 @@ spec:
   source:
     git:
       ref:
-        branch: master
+        branch: main
       url: https://github.com/jbergfeld/tap-php-demo.git
